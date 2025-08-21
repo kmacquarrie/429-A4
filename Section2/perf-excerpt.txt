@@ -1,0 +1,76 @@
+Samples: 77K of event 'cycles', Event count (approx.): 87857324576
+Overhead  Command  Shared Object     Symbol
+  27.77%  GeMMBig  GeMMBig           [.] step1_dgemm(double*, double*, double*, int, int, int)
+  24.56%  GeMMBig  GeMMBig           [.] step2_dgemm(double*, double*, double*, int, int, int)
+  23.37%  GeMMBig  GeMMBig           [.] step3_dgemm(double*, double*, double*, int, int, int)
+  22.38%  GeMMBig  GeMMBig           [.] step4_dgemm(double*, double*, double*, int, int, int)
+
+Samples: 77K of event 'L1-dcache-loads', Event count (approx.): 120981045343
+Overhead  Command  Shared Object     Symbol
+  26.37%  GeMMBig  GeMMBig           [.] step4_dgemm(double*, double*, double*, int, int, int)
+  24.37%  GeMMBig  GeMMBig           [.] step3_dgemm(double*, double*, double*, int, int, int)
+  24.26%  GeMMBig  GeMMBig           [.] step2_dgemm(double*, double*, double*, int, int, int)
+  24.26%  GeMMBig  GeMMBig           [.] step1_dgemm(double*, double*, double*, int, int, int)
+
+Samples: 77K of event 'L1-dcache-load-misses', Event count (approx.): 1319396897
+Overhead  Command  Shared Object     Symbol
+  26.34%  GeMMBig  GeMMBig           [.] step1_dgemm(double*, double*, double*, int, int, int)
+  25.09%  GeMMBig  GeMMBig           [.] step2_dgemm(double*, double*, double*, int, int, int)
+  24.07%  GeMMBig  GeMMBig           [.] step3_dgemm(double*, double*, double*, int, int, int)
+  23.18%  GeMMBig  GeMMBig           [.] step4_dgemm(double*, double*, double*, int, int, int)
+
+Samples: 669  of event 'l2_rqsts.all_demand_data_rd', Event count (approx.): 133802007
+Overhead  Command  Shared Object     Symbol
+  29.00%  GeMMBig  GeMMBig           [.] step1_dgemm(double*, double*, double*, int, int, int)
+  27.65%  GeMMBig  GeMMBig           [.] step3_dgemm(double*, double*, double*, int, int, int)
+  27.20%  GeMMBig  GeMMBig           [.] step2_dgemm(double*, double*, double*, int, int, int)
+   9.57%  GeMMBig  GeMMBig           [.] step4_dgemm(double*, double*, double*, int, int, int)
+
+Samples: 269  of event 'l2_rqsts.all_demand_miss', Event count (approx.): 53800807
+Overhead  Command  Shared Object     Symbol
+  18.96%  GeMMBig  GeMMBig           [.] step1_dgemm(double*, double*, double*, int, int, int)
+  18.59%  GeMMBig  GeMMBig           [.] step3_dgemm(double*, double*, double*, int, int, int)
+  14.87%  GeMMBig  GeMMBig           [.] step2_dgemm(double*, double*, double*, int, int, int)
+  12.27%  GeMMBig  GeMMBig           [.] step4_dgemm(double*, double*, double*, int, int, int)
+
+Samples: 64K of event 'LLC-loads', Event count (approx.): 42672378
+Overhead  Command  Shared Object     Symbol
+  23.92%  GeMMBig  GeMMBig           [.] step3_dgemm(double*, double*, double*, int, int, int)
+  21.86%  GeMMBig  GeMMBig           [.] step1_dgemm(double*, double*, double*, int, int, int)
+  18.90%  GeMMBig  GeMMBig           [.] step2_dgemm(double*, double*, double*, int, int, int)
+  13.80%  GeMMBig  GeMMBig           [.] step4_dgemm(double*, double*, double*, int, int, int)
+
+Samples: 50K of event 'LLC-load-misses', Event count (approx.): 8266715
+Overhead  Command  Shared Object         Symbol
+  49.60%  GeMMBig  GeMMBig               [.] step1_dgemm(double*, double*, double*, int, int, int)
+  45.44%  GeMMBig  GeMMBig               [.] step2_dgemm(double*, double*, double*, int, int, int)
+   2.75%  GeMMBig  GeMMBig               [.] step3_dgemm(double*, double*, double*, int, int, int)
+   1.27%  GeMMBig  GeMMBig               [.] step4_dgemm(double*, double*, double*, int, int, int)
+
+Samples: 77K of event 'dTLB-loads', Event count (approx.): 121213401618
+Overhead  Command  Shared Object     Symbol
+  26.46%  GeMMBig  GeMMBig           [.] step4_dgemm(double*, double*, double*, int, int, int)
+  24.39%  GeMMBig  GeMMBig           [.] step3_dgemm(double*, double*, double*, int, int, int)
+  24.22%  GeMMBig  GeMMBig           [.] step1_dgemm(double*, double*, double*, int, int, int)
+  24.19%  GeMMBig  GeMMBig           [.] step2_dgemm(double*, double*, double*, int, int, int)
+
+Samples: 55K of event 'dTLB-load-misses', Event count (approx.): 10279588
+Overhead  Command  Shared Object         Symbol
+  49.99%  GeMMBig  GeMMBig               [.] step1_dgemm(double*, double*, double*, int, int, int)
+  47.10%  GeMMBig  GeMMBig               [.] step2_dgemm(double*, double*, double*, int, int, int)
+   0.99%  GeMMBig  GeMMBig               [.] step4_dgemm(double*, double*, double*, int, int, int)
+   0.81%  GeMMBig  GeMMBig               [.] step3_dgemm(double*, double*, double*, int, int, int)
+
+Samples: 77K of event 'dTLB-stores', Event count (approx.): 22825270720
+Overhead  Command  Shared Object     Symbol
+  32.62%  GeMMBig  GeMMBig           [.] step4_dgemm(double*, double*, double*, int, int, int)
+  21.85%  GeMMBig  GeMMBig           [.] step3_dgemm(double*, double*, double*, int, int, int)
+  21.50%  GeMMBig  GeMMBig           [.] step2_dgemm(double*, double*, double*, int, int, int)
+  21.49%  GeMMBig  GeMMBig           [.] step1_dgemm(double*, double*, double*, int, int, int)
+
+Samples: 41K of event 'dTLB-store-misses', Event count (approx.): 1164968
+Overhead  Command  Shared Object     Symbol
+  77.16%  GeMMBig  GeMMBig           [.] step1_dgemm(double*, double*, double*, int, int, int)                                                   ◆
+   2.89%  GeMMBig  GeMMBig           [.] step4_dgemm(double*, double*, double*, int, int, int)                                                   ▒
+   0.34%  GeMMBig  GeMMBig           [.] step3_dgemm(double*, double*, double*, int, int, int)                                                   ▒
+   0.02%  GeMMBig  GeMMBig           [.] step2_dgemm(double*, double*, double*, int, int, int)  
