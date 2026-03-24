@@ -7,6 +7,7 @@ Kouta MacQuarrie, Kenny Carlson
 - It was agreed Kouta would be responsible for meeting notes and assignment formatting.
 - **Kouta:** Section I, Question 1(a)
 - **Kenny:** Section II, Question 3(a).
+
 Next meeting: early during the week of March 23.
 
 # Meeting 2- Tuesday, March 22, 2026
