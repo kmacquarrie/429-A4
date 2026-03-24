@@ -10,7 +10,7 @@ Kouta MacQuarrie, Kenny Carlson
 
 Next meeting: early during the week of March 23.
 
-# Meeting 2- Tuesday, March 22, 2026
+# Meeting 2 - Tuesday, March 22, 2026
 - During this meeting, we went over our contributions for Section I.
 - We worked on the remaining questions in Section I until completion.
 - We set a goal to be ready to work on the theory questions in Sections II-III by Thursday to allow a review of our work and submission on Friday.
