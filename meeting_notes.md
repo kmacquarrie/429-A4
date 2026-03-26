@@ -18,3 +18,10 @@ Next meeting: early during the week of March 23.
 - **Kenny:** Section II, Question 2(a-b).
 
 Next meeting: Thursday, March 26, 2026.
+
+# Meeting 3 - Thursday, March 26, 2026
+- During this meeting, we went over our contributions for Section II.
+- We finished the rest of the assignment, including feedback.
+- We decided to have a final meeting on Friday to review our answers once more before submission.
+
+Next meeting: Friday, March 27, 2026.
