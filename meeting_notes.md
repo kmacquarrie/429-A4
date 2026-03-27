@@ -25,3 +25,7 @@ Next meeting: Thursday, March 26, 2026.
 - We decided to have a final meeting on Friday to review our answers once more before submission.
 
 Next meeting: Friday, March 27, 2026.
+
+# Meeting 4 - Friday, March 26, 2026
+- During this meeting, we just reviewed our answers and fixed any data entry mistakes or reworded certain answers.
+- We submitted the assignment during this meeting.
